@@ -1,0 +1,7 @@
+//Keyword: console
+//refers to an object, a collection of data and actions, used in placeholder
+//we can use console as an object with actions
+
+console.log("Hello World!"); 
+
+//In JS, lines of code end with a semi-colon; important not to forget!
