@@ -7,16 +7,42 @@
   <style>
       body {
           text-align: center;
-          background: black;
-          color: white;
+          background: light green;
+          <!--
+          background-image: url(https://i.imgur.com/RGyx0Zk.jpg);
+          background-size: cover;
+          background-position: center;
+            -->
+          color: black;
           font-family: helvetica;
+      }
+      img.one {
+          width: 50%;
+      }
+      p.one {
+          font-size: 25px;
+      }
+      p.two {
+          font-size: 30px;
+          color: green;
+      }
+      input {
+          border: 2px;
+          padding: 10px;
+          font-size: 18px;
+      }
+
+      input[type="submit"] {
+          background: orange;
+          color: white;
       }
   </style>
 </head>
 
 <body>
-<h1>Zhanxi Ni</h1>
-<p>Hi! I'm Zhanxi, a SF-based software engineering student. Say hello!</p>
+<img class="one" src="IMG_3609.jpeg" title="my profile" alt="Zhanxi Ni"/>
+<p class="one">Hi! I'm Zhanxi, a SF-based software engineering student.</p>
+<p class="two">Say hello!</p>
 <input type="email" placeholder="Your email">
 <input type="submit">
 </body>
